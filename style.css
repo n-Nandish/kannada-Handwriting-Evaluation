@@ -1,0 +1,37 @@
+body {
+  font-family: 'Noto Sans Kannada', sans-serif;
+  background-color: #f2f9f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+input[type="file"] {
+  margin: 10px 0;
+}
+
+button {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#resultArea {
+  margin-top: 20px;
+  padding: 10px;
+  background: #eafaf1;
+  border-radius: 5px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+  <meta charset="UTF-8">
+  <title>ಕನ್ನಡ ಹಸ್ತಲಿಖಿತ ಮೌಲ್ಯಮಾಪನ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📄 ಕನ್ನಡ ಹಸ್ತಲಿಖಿತ ಮೌಲ್ಯಮಾಪನ ವ್ಯವಸ್ಥೆ</h1>
+    <p>ದಯವಿಟ್ಟು ನಿಮ್ಮ ಹಸ್ತಲಿಖಿತ ಚಿತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ:</p>
+
+    <form id="uploadForm" enctype="multipart/form-data">
+      <input type="file" id="imageInput" name="file" accept="image/*" required>
+      <button type="submit">ಮೌಲ್ಯಮಾಪನ ಆರಂಭಿಸಿ</button>
+    </form>
+
+    <div id="resultArea">
+      <h3>ಫಲಿತಾಂಶ:</h3>
+      <p id="result">ಇಲ್ಲಿದೆ ನಿಮ್ಮ ಮೌಲ್ಯಮಾಪನ ಫಲಿತಾಂಶ...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
